@@ -1,0 +1,9 @@
+# Register a survival crafting recipe for the One-Use Anvil.
+# Shape: iron ingots in a full anvil pattern (7 iron ingots total)
+#   I I I
+#     I
+#   I I I
+recipe-enabled: true
+
+# Show an action bar warning when a player opens a One-Use Anvil.
+show-open-warning: true

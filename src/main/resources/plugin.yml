@@ -1,0 +1,18 @@
+name: OneUseAnvil
+version: '${project.version}'
+main: com.oneuseanvil.OneUseAnvilPlugin
+api-version: '1.21'
+description: Adds a special anvil that breaks after a single use.
+author: Claude
+
+commands:
+  oneuseanvil:
+    description: Give yourself or another player a One-Use Anvil.
+    usage: /<command> give [player] [amount]
+    aliases: [oua]
+    permission: oneuseanvil.give
+
+permissions:
+  oneuseanvil.give:
+    description: Allows giving One-Use Anvils.
+    default: op
